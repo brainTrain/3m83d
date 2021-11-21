@@ -1,6 +1,6 @@
 {
   "name": "3m83d",
-  "version": "0.1.2",
+  "version": "0.2.2",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
@@ -64,7 +64,8 @@
   "scripts": {
     "start": "node --openssl-legacy-provider scripts/start.js",
     "build": "node --openssl-legacy-provider scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "prepublish": "npm run build"
   },
   "eslintConfig": {
     "extends": [
