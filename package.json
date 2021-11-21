@@ -1,6 +1,6 @@
 {
   "name": "3m83d",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
@@ -62,6 +62,7 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "main": "build/index.html",
+  "homepage": "./",
   "scripts": {
     "start": "node --openssl-legacy-provider scripts/start.js",
     "build": "node --openssl-legacy-provider scripts/build.js",
