@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [count, setCount] = useState(0); 
+  const handleClick = () => {
+    setCount((prev) => prev + 1);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,6 +15,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>clicks: {count}</p>
+        <button onClick={handleClick}>Clicky!</button>
         <a
           className="App-link"
           href="https://reactjs.org"
