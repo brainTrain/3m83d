@@ -1,6 +1,6 @@
 {
   "name": "3m83d",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
